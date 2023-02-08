@@ -1,10 +1,11 @@
 import { Component } from 'react';
-import { Posts } from './components/Posts';
-import './App.css';
 
-import {loadPosts} from './utils/load-posts';
+import './styles.css';
 
-class App extends Component {
+import { Posts } from '../../components/Posts';
+import {loadPosts} from '../../utils/load-posts';
+
+export class Home extends Component {
   //Public class fields
  state = {
       //counter: 0,
@@ -36,4 +37,4 @@ class App extends Component {
   }
 }
 
-export default App;
+
